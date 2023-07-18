@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -7,9 +6,10 @@ body {
 }
 h1 {
   font-size: 3.5em;
-  }
+}
 h2 {
   font-size: 2.7em;
+  text-decoration: underline;
 }
 h3 {
   font-size: 2em;
@@ -17,17 +17,111 @@ h3 {
 p {
   font-size: 1.25em;
 }
-.container{
+.container {
   max-width: 1400px;
   margin: auto;
-  }
-header{
-  background-color: #1F8A70
 }
-header.logo{
+header {
+  background-color: #00425a;
+}
+header .logo {
   margin: 0;
-  padding: 25px 30px
+  padding: 25px 30px;
+  font: bold;
+  color: #eff5f5;
+  font-size: 1.6em;
 }
-header .container{
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+header a:hover {
+  color: #181823;
+}
+
+#encabezado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 90vh;
+  color: #eff5f5;
+  background-image: url(../img/atardecer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#encabezado h1 {
+  font-size: 3em;
+  padding: 0 20px;
+  font-family: "Belanosima", sans-serif;
+  margin-bottom: 5px;
+}
+#encabezado p {
+  font-size: 1em;
+}
+
+#apartado1 {
+  background-color:#eff5f5;
+}
+
+#apartado1 .container{
+  text-align: center;
+  padding: 200px 12px;
+  color: #181823;
+}
+
+#apartado2{
+   background-color: #1F8A70;
+  }
+#apartado2 .container{
+  text-align: center;
+  padding: 200px 12px;
+  color: #eff5f5;
 
 }
+#apartado3{
+ background-color: #eff5f5;
+}
+#apartado3 .container {
+  text-align: center;
+  color: #181823;
+  padding: 100px 0;
+}
+ #apartado3 .h2{
+  margin-top: 0;
+   }
+  
+
+   .propuesta:first-child{
+    background-image: url(../img/sangre.jpg);
+
+   }
+   .propuesta:nth-child(2){
+    background-image: url(../img/ecología.jpg);
+
+   }
+.propuesta:nth-child(3){
+  background-image: url(../img/proyecto.jpg);
+    
+   }
+   .propuesta:nth-child(4){
+    background-image: url(../img/reciclado.jpg);
+    
+   }
+
