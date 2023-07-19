@@ -31,9 +31,9 @@ header .logo {
   font: bold;
   color: #181823;
   font-size: 1.6em;
-  font-family: 'Belasinoma',sans-serif;
+  font-family: "Belasinoma", sans-serif;
   font-weight: bold;
-  text-shadow: 3px 3px 3px #1F8A70;
+  text-shadow: 3px 3px 3px #1f8a70;
 }
 header .container {
   display: flex;
@@ -75,92 +75,104 @@ header a:hover {
   padding: 0 20px;
   font-family: "Belanosima", sans-serif;
   margin-bottom: 5px;
-  text-shadow: 3px 3px 3px #1F8A70
+  text-shadow: 3px 3px 3px #1f8a70;
 }
 #encabezado p {
   font-size: 1em;
 }
 
 #apartado1 {
-  background-color:#eff5f5;
+  background-color: #eff5f5;
 }
 
-#apartado1 .container{
+#apartado1 .container {
   text-align: center;
   padding: 100px 12px;
   color: #181823;
 }
 
-#apartado2{
-   background-color: #1F8A70;
-  }
-#apartado2 .container{
+#apartado2 {
+  background-color: #1f8a70;
+}
+#apartado2 .container {
   text-align: center;
   padding: 100px 12px;
   color: #eff5f5;
-
 }
-#apartado3{
- background-color: #eff5f5;
+#apartado3 {
+  background-color: #eff5f5;
 }
 #apartado3 .container {
   text-align: center;
   color: #181823;
   padding: 100px 0;
- 
 }
- #apartado3 .h2{
+#apartado3 .h2 {
   margin-top: 0;
-   }
-    
-   .propuesta{
-    background-position: center;
-    background-size: cover;
-    padding: 45px;
-    margin: 20px;
-    border-radius: 30px;
-    
-  }
-  
-   .propuesta:first-child{
-    background-image: url(../img/sangre.jpg);
-   border: 1px solid #00425a;
+}
 
-   }
-   .propuesta:nth-child(2){
-    background-image: url(../img/ecología.jpg);
-  
-   }
-.propuesta:nth-child(3){
+.propuesta {
+  background-position: center;
+  background-size: cover;
+  padding: 45px;
+  margin: 20px;
+  border-radius: 30px;
+}
+
+.propuesta:first-child {
+  background-image: url(../img/sangre.jpg);
+  border: 1px solid #00425a;
+}
+.propuesta:nth-child(2) {
+  background-image: url(../img/ecología.jpg);
+}
+.propuesta:nth-child(3) {
   background-image: url(../img/proyecto.jpg);
-      
-   }
-   .propuesta:nth-child(4){
-    background-image: url(../img/reciclado.jpg);
-    }
+}
+.propuesta:nth-child(4) {
+  background-image: url(../img/reciclado.jpg);
+}
 
-#apartado4{
-  background-color: #1F8A70;
+#apartado4 {
+  background-color: #1f8a70;
   text-align: center;
   padding: 100px 12px;
   color: #eff5f5;
   text-align: center;
-
- }
+  font-family: "Belanosima", sans-serif;
+}
 #apartado4 .container {
-color: #181823;
-border: 30px 0;
-
+  color: #181823;
+  border: 30px 0;
 }
 
-#apartado4 h4{
+#apartado4 h4 {
   font-weight: bold;
   padding-top: 20px;
 }
 
-footer{
-  margin: 0;
+footer .container {
   background-color: #fc7300;
   justify-content: center;
+}
+.container h3 {
   text-align: center;
+  font-family: "Belanosima", sans-serif;
+  padding: 0 20px;
+}
+.redes a {
+  display: inline-block;
+  min-height: 40px;
+  padding: 0 20px;
+  justify-content: center;
+}
+
+.redes a:hover {
+  color: #1f8a70;
+}
+
+.mapa iframe {
+  width: 300px;
+  height: 200px;
+  margin-left: 10px;
 }
