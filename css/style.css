@@ -34,7 +34,7 @@ header .logo {
   font-size: 1.6em;
   font-family: "Belasinoma", sans-serif;
   font-weight: bold;
-  text-shadow: 3px 3px 3px #1f8a70;
+  text-shadow: 3px 3px 3px #eff5f5;
 }
 header .container {
   display: flex;
@@ -53,7 +53,7 @@ header a {
   text-decoration: none;
   font-weight: bold;
   color: #fc7300;
-  font-family:'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 header a:hover {
   color: #eff5f5;
@@ -122,17 +122,17 @@ header a:hover {
 }
 
 .propuesta:first-child {
-  background-image: url(../img/sangre.jpg);
+  background-image: url(../img/donar.jpg);
   border: 1px solid #00425a;
 }
 .propuesta:nth-child(2) {
-  background-image: url(../img/ecología.jpg);
+  background-image: url(../img/ecologia.jpg);
 }
 .propuesta:nth-child(3) {
   background-image: url(../img/proyecto.jpg);
 }
 .propuesta:nth-child(4) {
-  background-image: url(../img/reciclado.jpg);
+  background-image: url(../img/eco.jpg);
 }
 
 #apartado4 {
@@ -144,7 +144,7 @@ header a:hover {
   font-family: "Belanosima", sans-serif;
 }
 #apartado4 .container {
-  color: #181823;
+  color: #eff5f5;
   border: 30px 0;
 }
 
@@ -179,80 +179,165 @@ footer .container {
   margin-left: 10px;
 }
 
-@media (min-width: 768px){
-  header{
+@media (min-width: 768px) {
+  header {
     position: fixed;
     width: 100%;
   }
-header .container{
-  flex-direction: row;
-  justify-content: space-between;
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
   }
-  header nav{
-flex-direction: row;
-padding-bottom: 0;
+  header nav {
+    flex-direction: row;
+    padding-bottom: 0;
   }
-.encabezado h1{
-  font-size: 6em;
-}
-  #apartado1 .container{
+  .encabezado h1 {
+    font-size: 6em;
+  }
+  #apartado1 .container {
     display: flex;
     justify-content: space-evenly;
   }
-#apartado1 h2{
+  #apartado1 h2 {
     margin-top: 0;
     font-size: 2.1em;
     padding: 50px;
-      }
+  }
 
-  #apartado1 .txt{
+  #apartado1 .txt {
     width: 50%;
     max-width: 600px;
     text-align: initial;
     margin-left: 10px;
     display: flex;
     flex-direction: column;
-  justify-content: center;
-  line-height: 1.5;
+    justify-content: center;
+    line-height: 1.5;
   }
-  
-#apartado1 .img-container{
-  background-image:url(../img/equipo.jpg);
-  background-size: cover;
-  background-position: center center;
-  height: 500px;
-  width: 400px;
-}
 
- #apartado2 .container{
+  #apartado1 .img-container {
+    background-image: url(../img/equipo.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+  }
+
+  #apartado2 .container {
     display: flex;
     justify-content: space-evenly;
   }
-#apartado2 h2{
+  #apartado2 h2 {
     margin-top: 0;
     font-size: 2.1em;
     padding: 50px;
-      }
+  }
 
-  #apartado2 .txt{
+  #apartado2 .txt {
     width: 50%;
     max-width: 600px;
     text-align: center;
     margin-left: 10px;
     display: flex;
     flex-direction: column;
-  justify-content: center;
-  line-height: 1.5;
+    justify-content: center;
+    line-height: 1.5;
   }
 
-  
-#apartado2 .img-container{
-  background-image:url(../img/alumnos.jpg);
-  background-size: cover;
-  background-position: center right;
-  height: 500px;
-  width: 400px;
-}
+  #apartado2 .img-container {
+    background-image: url(../img/alumnos.jpg);
+    background-size: cover;
+    background-position: center right;
+    height: 500px;
+    width: 500px;
+  }
+  #apartado3 .container {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+  }
 
+  #apartado3 .h2 {
+    margin: 0;
+    border: 0;
+    padding-bottom: 30px;
+  }
+  .propuesta h3 {
+    font-size: small;
+    color: black;
+  }
+  .pei {
+    margin-top: 7%;
+  }
+  .propuesta {
+    display: inline-block;
+    justify-items: center;
+    padding: 30px 20px;
+    width: 9em;
+    height: 9em;
+    border-radius: 80px;
+  }
 
+  #apartado4 .container {
+    display: flex;
+  }
+  #apartado4 h2 {
+    padding-bottom: 50px;
+  }
+  #apartado4 h4 {
+    text-align: center;
+    font-size: large;
+    margin-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  .noticia1,
+  .noticia2 {
+    background-color: #00425a;
+    font-family: "Poppins";
+    font-size: small;
+    padding: 15px;
+    margin: 0 10px;
+    text-align: justify;
+    border-radius: 0 20%;
+  }
+  footer .container {
+    margin: 0;
+
+    display: flex;
+    background-color: #fc7300;
+    justify-content: center;
+  }
+  .container h3 {
+    text-align: center;
+    font-family: "Belanosima", sans-serif;
+    padding: 5px 20px;
+    font-size: medium;
+  }
+  .redes a {
+    display: inline-block;
+    min-height: 30px;
+    padding: 0 10px;
+    justify-content: space-between;
+    justify-items: center;
+  }
+
+  .redes a:hover {
+    color: #1f8a70;
+  }
+
+  .mapa iframe {
+    width: 200px;
+    height: 100px;
+    margin-left: 10px;
+  }
+  .contacto p {
+    font-family: "Poppins";
+    font-size: small;
+    text-align: center;
+    padding: 0 20px;
+  }
 }
