@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  margin: 0;
 }
 body {
   margin: 0;
@@ -23,13 +24,13 @@ p {
   margin: auto;
 }
 header {
-  background-color: #fc7300;
+  background-color: #00425a;
 }
 header .logo {
   margin: 0;
   padding: 25px 30px;
   font: bold;
-  color: #181823;
+  color: #fc7300;
   font-size: 1.6em;
   font-family: "Belasinoma", sans-serif;
   font-weight: bold;
@@ -51,7 +52,8 @@ header a {
   padding: 5px 12px;
   text-decoration: none;
   font-weight: bold;
-  color: #181823;
+  color: #fc7300;
+  font-family:'Poppins', sans-serif;
 }
 header a:hover {
   color: #eff5f5;
@@ -175,4 +177,82 @@ footer .container {
   width: 300px;
   height: 200px;
   margin-left: 10px;
+}
+
+@media (min-width: 768px){
+  header{
+    position: fixed;
+    width: 100%;
+  }
+header .container{
+  flex-direction: row;
+  justify-content: space-between;
+  }
+  header nav{
+flex-direction: row;
+padding-bottom: 0;
+  }
+.encabezado h1{
+  font-size: 6em;
+}
+  #apartado1 .container{
+    display: flex;
+    justify-content: space-evenly;
+  }
+#apartado1 h2{
+    margin-top: 0;
+    font-size: 2.1em;
+    padding: 50px;
+      }
+
+  #apartado1 .txt{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  line-height: 1.5;
+  }
+  
+#apartado1 .img-container{
+  background-image:url(../img/equipo.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 400px;
+}
+
+ #apartado2 .container{
+    display: flex;
+    justify-content: space-evenly;
+  }
+#apartado2 h2{
+    margin-top: 0;
+    font-size: 2.1em;
+    padding: 50px;
+      }
+
+  #apartado2 .txt{
+    width: 50%;
+    max-width: 600px;
+    text-align: center;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  line-height: 1.5;
+  }
+
+  
+#apartado2 .img-container{
+  background-image:url(../img/alumnos.jpg);
+  background-size: cover;
+  background-position: center right;
+  height: 500px;
+  width: 400px;
+}
+
+
 }
