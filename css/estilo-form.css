@@ -17,14 +17,18 @@
   background-position: center center;
 }
 #encabezado h1 {
+  color: #eff5fe;
   font-size: 3em;
   padding: 0 20px;
   font-family: "Belanosima", sans-serif;
   margin-bottom: 5px;
-  text-shadow: 3px 3px 3px #eff5fe;
+  text-shadow: 3px 3px 3px #1f8a70;
   text-align: center;
 }
+#encabezado p {
+color: #eff5fe;
 
+}
 .container {
   background-color: #1f8a70 ;
   color: #eff5fe;
@@ -36,6 +40,5 @@
 
 .boton {
     background-color: #fc7300;
+   }
 
-
-}
