@@ -234,8 +234,8 @@ footer .container {
   #apartado2 h2 {
     margin-top: 0;
     font-size: 2.1em;
-    padding: 50px;
-  }
+    padding-bottom: 30px;
+      }
 
   #apartado2 .txt {
     width: 50%;
@@ -244,8 +244,7 @@ footer .container {
     margin-left: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    line-height: 1.5;
+    ;
   }
 
   #apartado2 .img-container {
@@ -286,6 +285,7 @@ footer .container {
 
   #apartado4 .container {
     display: flex;
+    justify-content: space-around;
   }
   #apartado4 h2 {
     padding-bottom: 50px;
@@ -295,6 +295,9 @@ footer .container {
     font-size: large;
     margin-top: 20px;
     padding-bottom: 15px;
+  }
+  #apartado4 p{
+    text-align: center;
   }
 
   .noticia1,
