@@ -10,7 +10,7 @@ h1 {
   font-size: 3.5em;
 }
 h2 {
-    font-size: 2.7em;
+  font-size: 2.7em;
   text-decoration: underline;
 }
 h3 {
@@ -102,8 +102,6 @@ header a:hover {
   color: #eff5f5;
 }
 
-
-
 #apartado3 {
   background-color: #eff5f5;
 }
@@ -163,23 +161,46 @@ footer .container {
 .container h3 {
   text-align: center;
   font-family: "Belanosima", sans-serif;
+  margin: 10px 5px;
   padding: 0 20px;
 }
+.redes {
+  padding: 10px;
+  margin-left: 16px;
+}
+
 .redes a {
   display: inline-block;
-  min-height: 40px;
-  padding: 0 20px;
   justify-content: center;
+  min-height: 40px;
+  padding: 10px 10px;
 }
 
 .redes a:hover {
   color: #1f8a70;
 }
+img {
+  justify-items: center;
+  padding: 0.5em;
+}
 
+.mapa {
+  padding: 10px;
+  margin-left: 16px;
+}
 .mapa iframe {
-  width: 300px;
-  height: 200px;
-  margin-left: 10px;
+  width: 250px;
+  height: 150px;
+  margin-left: 15px;
+  border-radius: 20%;
+}
+
+.contacto {
+  padding: 10px;
+  margin-left: 16px;
+}
+.contacto p {
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -235,7 +256,7 @@ footer .container {
     margin-top: 0;
     font-size: 2.1em;
     padding-bottom: 30px;
-      }
+  }
 
   #apartado2 .txt {
     width: 50%;
@@ -244,7 +265,6 @@ footer .container {
     margin-left: 10px;
     display: flex;
     flex-direction: column;
-    ;
   }
 
   #apartado2 .img-container {
@@ -296,7 +316,7 @@ footer .container {
     margin-top: 20px;
     padding-bottom: 15px;
   }
-  #apartado4 p{
+  #apartado4 p {
     text-align: center;
   }
 
@@ -315,7 +335,6 @@ footer .container {
     display: flex;
     background-color: #fc7300;
     justify-content: space-between;
-    
   }
 
   .container h3 {
@@ -324,11 +343,12 @@ footer .container {
     padding: 5px 20px;
     font-size: medium;
   }
+
   .redes a {
     display: inline-block;
     min-height: 30px;
-    padding: 0 10px;
-   justify-items: center;
+    padding: 3px 3px;
+    justify-items: center;
   }
 
   .redes a:hover {
